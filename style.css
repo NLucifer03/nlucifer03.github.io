@@ -227,11 +227,16 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 210px;
 }
 
 .home__blob {
-  fill: var(--first-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  margin-left: 200px;
 
 }
 
