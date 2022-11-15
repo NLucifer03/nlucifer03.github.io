@@ -235,9 +235,6 @@ img {
   margin-bottom: 100px;
   margin-right: -45px;
 }
-.home__img img {
-  width: 100%;
-}
 
 /* .home__blob {
   display: flex;
@@ -293,7 +290,7 @@ img {
 }
 
 .about__img img {
-  width: 100px;
+  width: 100%;
   height: 50%;
   border-radius: 50%;
 }
