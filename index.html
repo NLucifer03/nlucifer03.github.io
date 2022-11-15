@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="./assets/img/header_icon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,10 +30,11 @@
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+
 
                 </ul>
             </div>
-
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
             </div>
@@ -42,10 +44,10 @@
     <main class="l-main">
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
-            <div class="home__data">
+            <div class="home__data" id="resume">
                 <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Nikhil</span><br> Web Designer</h1>
 
-                <a download="" href="./assets/nikhilchauhan@resume.pdf" class="button">Resume</a>
+                <a style="cursor:pointer" id="resume2" class="button">Resume</a>
             </div>
 
             <div class="home__social">
@@ -62,8 +64,7 @@
 
             <div class="home__img">
 
-                <img width="70%" style="border-radius: 20px;margin: auto;" src="./assets/img/header-profile-2.jpg"
-                    alt="">
+                <img width="70%" style="border-radius: 20px;margin: auto;" src="./assets/img/header_gif.gif" alt="">
 
             </div>
         </section>
@@ -265,6 +266,37 @@
 
                 </div>
                 <!-- </div> -->
+
+                <!-- <div > -->
+                <div class="work__box">
+                    <div class="right_box_work">
+                        <a href="" class="work__img">
+                            <img src="assets/img/nursary.png" alt="">
+                        </a>
+                    </div>
+                    <div class="left_box_work">
+                        <div class="work_project_name">
+                            <h2 class="project-heading">Online Nursery Management System</h2>
+                        </div>
+                        <p class="project-para">Objective of this application is to manage all the records of Plant,
+                            Planter, Seed, Admin, Coustomer and creating Rest API.</p>
+                        <a style="display:inline-block;margin-right: 20px;"
+                            href="https://github.com/NLucifer03/Unadvised-advertisement-6513" target="_blank">Code<i
+                                class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
+                        <!-- <a style="display:inline-block;margin-right: 20px;"
+                            href="https://rainbow-smakager-616752.netlify.app/final%20output/home" target="_blank">Live<i
+                                class="fa-solid fa-square-arrow-up-right" style="display: block-inline;margin-left:5px"></i></a> -->
+                        <div>
+                            <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">JAVA
+                            </p>
+                            <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">Spring-Boot
+                            </p>
+                            <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">SQL</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- </div> -->
             </div>
         </section>
 
@@ -273,7 +305,8 @@
 
         <section>
 
-            <h2 class="section-title" style="text-align:center;margin-bottom: 80px;margin-top: 50px;">Github Statitics</h2>
+            <h2 class="section-title" style="text-align:center;margin-bottom: 80px;margin-top: 50px;">Github Statitics
+            </h2>
             <p align="left">
             <p align="center" style="width:70%;margin:auto;">
                 <img width="48%"
@@ -282,7 +315,7 @@
                     src="https://github-readme-streak-stats.herokuapp.com/?user=NLucifer03&theme=default" />
             </p>
 
-        <!-- Include the library. -->
+            <!-- Include the library. -->
             <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
             <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->

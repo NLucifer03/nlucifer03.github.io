@@ -11,6 +11,22 @@ const showMenu = (toggleId, navId) => {
 }
 showMenu('nav-toggle', 'nav-menu')
 
+//===================Resume=================
+
+document.getElementById("resume2").onclick = function(){
+    let file = "assets/nikhilchauhan@resume.pdf";
+    let down  = document.createElement("a");
+    down.href = file;
+    down.download = file.substring(file.lastIndexOf("/")+1);
+    down.click();
+    let url = "https://drive.google.com/file/d/1tzhyK5ZcEvPN7LSGIg7gqg3215z7Vj2m/view?usp=sharing";
+    window.open(url);
+
+}
+
+
+
+// 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
